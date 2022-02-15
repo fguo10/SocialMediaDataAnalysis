@@ -11,16 +11,16 @@ import numpy as np
 # section of the Keys and Tokens tab of your app, under the
 # Twitter Developer Portal Projects & Apps page at
 # https://developer.twitter.com/en/portal/projects-and-apps
-CONSUMER_KEY = "dbPdxsCb4aVlbDndKjIQP6rFT"
-CONSUMER_SECRET = "RwC3z3bTAFjh8KfSYsokuycvskQviGKsb948pCvdD5Pie7l0xH"
+CONSUMER_KEY = "xxxx"
+CONSUMER_SECRET = "xxxx"
 
 # Your account's (the app owner's account's) access token and secret for your
 # app can be found under the Authentication Tokens section of the
 # Keys and Tokens tab of your app, under the
 # Twitter Developer Portal Projects & Apps page at
 # https://developer.twitter.com/en/portal/projects-and-apps
-ACCESS_TOKEN = "1441751651061153792-ACDgWDehy23vBCw2oX3DswubwMEtZz"
-ACCESS_TOKEN_SECRET = "7AJRngLFYcT4m8PYjK9dqzHkxKHfiZlrf7PxS316ey3bQ"
+ACCESS_TOKEN = "xxx"
+ACCESS_TOKEN_SECRET = "xxx"
 
 # read file which save users list
 SCREEN_NAME_FILENAME = 'doc/users.txt'
