@@ -69,7 +69,6 @@ class TwitterDataCollection:
         all_friends = {}
         load_users = get_users()
         for username in load_users:
-            print(f'===={username}====')
             for i in range(try_count):
                 try:
                     data = self.get_one_user_detail(username)
@@ -133,6 +132,7 @@ class DataVisualization:
                 if screen_name in draw_screen_names:
                     self.add_nodes(G_asymmetric, screen_name, friends)
         return G_asymmetric
+
 
 
 class DataAnalysis:
